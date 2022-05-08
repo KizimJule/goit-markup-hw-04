@@ -128,30 +128,6 @@ ul {
   padding-bottom: 32px;
 }
 
-.contact-item .mail::before {
-  margin-right: 10px;
-  content: '';
-  width: 16px;
-  height: 12px;
-  background-image: url(../images/mail.svg);
-  background-size: contain;
-}
-.contact-item .mail:hover:before {
-  fill: currentColor;
-  /* background-image: url(../images/mail-hover.svg); */
-}
-.contact-item .phone::before {
-  margin-right: 10px;
-  content: '';
-  width: 10px;
-  height: 16px;
-  background-image: url(../images/smartphone.svg);
-  background-size: contain;
-}
-.contact-item .phone:hover:before {
-  fill: currentColor;
-}
-
 /*секция hero*/
 .hero {
   margin-left: auto;
