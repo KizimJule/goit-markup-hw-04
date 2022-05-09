@@ -70,17 +70,22 @@ ul {
 }
 
 .contact-item + .contact-item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .headder {
   border-bottom: 1px solid var(--border-hedder-color);
 }
 
+.headder .logo {
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
 .logo {
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.19;
   text-decoration: none;
   color: var(--title-text-color);
 }
@@ -99,6 +104,7 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--title-text-color);
@@ -111,6 +117,7 @@ ul {
 .contact .link {
   display: block;
   font-weight: 500;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
@@ -225,6 +232,7 @@ ul {
 }
 .feature-list .title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -360,15 +368,16 @@ ul {
 /*footer*/
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-address {
   margin-right: 70px;
+  width: 231px;
 }
 
 .footer .logo {
   display: block;
   margin-bottom: 20px;
-  line-height: 1.19;
   color: var(--primary-white-color);
 }
 .footer .logo:hover,
@@ -401,9 +410,7 @@ ul {
 .footer-link:not(:last-child) {
   margin-bottom: 9px;
 }
-.join {
-  margin-top: 12px;
-}
+
 .join-title {
   margin-bottom: 20px;
   color: var(--primary-white-color);
